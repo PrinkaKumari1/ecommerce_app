@@ -5,8 +5,6 @@ import { ShopContext } from '../context/ShopContext';
 
 const ProductItem = ({id, image, name, price}) => {
 
-    console.log('props from parent');
-
     const {currency} = useContext(ShopContext);
 
   return (
