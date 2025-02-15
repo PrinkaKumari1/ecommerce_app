@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <div className='flex flex-col sm:grid grid-cols-[3fr_1fr_1fr] gap-14 my-10 mt-40 text-sm'>
         <div>
-            <img src={assets.logo} alt="" srcset="" className='mb-5 w-32'/>
+            <img src={assets.logo} alt="" className='mb-5 w-32'/>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis reprehenderit ab repellendus quae accusantium deserunt doloremque blanditiis quod asperiores fuga harum nihil, officiis impedit exercitationem ipsum quaerat corporis corrupti aliquid?</p>
         </div>
 
